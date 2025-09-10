@@ -1,0 +1,124 @@
+# ------------------------------
+# OS-Specific
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+*.log
+*.sqlite3
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# ------------------------------
+# Virtual Environment (pipenv, poetry)
+# ------------------------------
+*.lock
+poetry.lock
+Pipfile.lock
+
+# ------------------------------
+# IDEs & Editors
+# ------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+out/
+
+# JetBrains logs
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# ------------------------------
+# Logs & Coverage
+# ------------------------------
+*.log
+logs/
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+pytestdebug.log
+
+# ------------------------------
+# Terraform
+# ------------------------------
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ------------------------------
+# Docker
+# ------------------------------
+*.pid
+*.seed
+*.bak
+*.swp
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# ------------------------------
+# AWS
+# ------------------------------
+.aws/
+*.pem
+*.ppk
+*.key
+*.crt
+*.csr
+
+# ------------------------------
+# Jenkins / CI
+# ------------------------------
+*.jenkins
+jenkins_home/
+
+# ------------------------------
+# Miscellaneous
+# ------------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
